@@ -7,7 +7,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { useAppSelector, useAppDispatch } from "../../app/hooks";
-import { addRow, selectTable } from "./tableSlice"+"2";
+import { addRow, selectTable } from "./tableSlice2";
 import { store } from "../../app/store";
 
 export default function MyTableApp2() {
