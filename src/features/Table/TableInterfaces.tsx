@@ -3,6 +3,17 @@ export interface ITableRow {
   value: number;
 }
 
-export interface ITable {
-  rows: Array<ITableRow>;
+export interface ITable extends Array<ITableRow> {}
+
+export interface ITableProps {
+  table: ITable;
+}
+
+export interface ITableState {
+  table: ITable;
+}
+
+export interface ITableAction {
+  type: string;
+  payload: ITableRow;
 }
